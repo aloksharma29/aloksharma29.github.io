@@ -152,7 +152,7 @@ html {
     
 }
 
-@media (min-width:701px) {
+@media (min-width:801px) {
 
     /*html {
         background-image: url('vincentiu solomon.jpg');
@@ -214,7 +214,7 @@ html {
     }
 
     .main_img img {
-        margin: 16% 0% 16% 30%;
+        margin: 16% 0% 19.4% 30%;
         padding: 0%;
         width: 50%;
         /*border-radius: 50%;*/
@@ -222,7 +222,7 @@ html {
 
     .main_heading {
         /*background-color: darkseagreen;*/
-        margin: 20% 21.1% 15% 0%;
+        margin: 18% 15% 15% 0%;
         padding: 3%;
     }
 
