@@ -209,18 +209,19 @@ html {
         flex-flow: row nowrap;
     }
 
-    .main_img{
+  .main_img{
         /*background-color: darkgreen;*/
-        flex-basis: 170em;
+        flex-basis: 100em;
     }
 
     .main_img img {
         display: flex;
         width: 50%;
         flex-flow: wrap;
-        margin: 17% 19% 17% auto;
+        margin: 17% 19% 17% 25%;
         border-radius: 50%;
     }
+
 
     .main_heading {
         /*background-color: darkkhaki;*/
