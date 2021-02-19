@@ -207,33 +207,38 @@ html {
     .main {
         display: flex;
         flex-flow: row nowrap;
-        /*height: 30.7em;*/
     }
 
-    .main_img {
-        /*background-color: darkorange;*/
-        width: 80em;
+    .main_img{
+        /*background-color: darkgreen;*/
+        flex-basis: 170em;
     }
 
     .main_img img {
-        margin: 16% 0% 19.4% 30%;
-        padding: 0%;
+        display: flex;
         width: 50%;
-        /*border-radius: 50%;*/
+        flex-flow: wrap;
+        margin: 17% 19% 17% auto;
+        border-radius: 50%;
     }
 
     .main_heading {
-        /*background-color: darkseagreen;*/
-        margin: 18% 15% 15% 0%;
-        padding: 3%;
+        /*background-color: darkkhaki;*/
+        display: flex;
+        flex-flow: column wrap;
+        margin: 0;
+        padding: 14% 14% 14% 0;
     }
 
     .main_heading h3 {
-        /*background-color: deeppink;*/
         text-align: left;
+        margin-top: 10%;
     }
 
+    .main_heading p {
+        font-size: .8em;
+        margin-bottom: 12.5%;
+    }
     .main_nav {
         display: none;
     }
-}
